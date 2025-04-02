@@ -477,6 +477,14 @@ user_agent_parsers:
   - regex: 'Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
 
+  # WeChat Browser
+  - regex: '(MacWechat)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat Browser'
+  - regex: '(WindowsWechat)'
+    family_replacement: 'WeChat Browser'
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat Browser Mobile'
+
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'QQ Browser Mini'
