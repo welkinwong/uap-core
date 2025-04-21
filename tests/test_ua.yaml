@@ -191,6 +191,18 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 SP-engine/2.74.0 main%2F1.0 matrixstyle/0 flyflow/6.12.3.32 info baiduboxapp/6.12.3.32 (Baidu; P2 18.5) NABar/1.0 themeUA=Theme/default'
+    family: 'Baidu Explorer'
+    major: '6'
+    minor: '12'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 SP-engine/3.35.0 main/1.0 baiduboxapp/15.8.0.10 (Baidu; P2 18.5) NABar/1.0 themeUA=Theme/default'
+    family: 'Baidu Explorer'
+    major: '15'
+    minor: '8'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.10(0x13080a10) XWEB/1227 Flue'
     family: 'WeChat Browser'
     major: '3'
@@ -7877,9 +7889,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 BytedanceWebview/d8a21c6 trill_34.9.0 JsSdk/2.0 NetType/4G Channel/App Store ByteLocale/en Region/MY FalconTag/31CFA6E0-CAE5-4ECF-A13A-ADFCAFC2428F'
     family: 'TikTok'
-    major: 
-    minor: 
-    patch: 
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/604.1 KAKAOTALK/11.3.1 (INAPP)'
     family: 'KakaoTalk'
@@ -8109,7 +8121,7 @@ test_cases:
     major: '1'
     minor: '4'
     patch: '12'
-  
+
   - user_agent_string: 'aws-sdk-go-v2/1.24.1 os/linux lang/go#1.20.4 md/GOOS#linux md/GOARCH#arm64 api/sts#1.26.7'
     family: 'aws-sdk-go-v2'
     major: '1'
@@ -8785,8 +8797,8 @@ test_cases:
 
   - user_agent_string: 'PandoraRSSCrawler/1.0 (podcastpartnerships@pandora.com)'
     family: 'PandoraRSSCrawler'
-    major:  '1'
-    minor:  '0'
+    major: '1'
+    minor: '0'
     patch:
 
   - user_agent_string: 'MinIO (linux; amd64) minio-go/v6.0.39 mc/2019-10-09T22:54:57Z'
@@ -8833,8 +8845,8 @@ test_cases:
 
   - user_agent_string: 'Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)'
     family: 'HTTrack'
-    major:  '3'
-    minor:  '0'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'PostmanRuntime/7.20.1'
@@ -8929,7 +8941,6 @@ test_cases:
     major: '7'
     minor: '5'
     patch: '2'
-
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 13; 0LpRiWjrpo; U; en) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.153 Mobile Avast/7.7.5 Safari/537.36'
     family: 'Avast Secure Browser'
@@ -9093,7 +9104,7 @@ test_cases:
     major:
     minor:
     patch:
-  
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.200 Safari/537.36 Qaxbrowser'
     family: 'QAX Browser'
     major:
