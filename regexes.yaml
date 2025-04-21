@@ -448,6 +448,10 @@ user_agent_parsers:
     family_replacement: 'Baidu Browser'
   - regex: '(FlyFlow)/(\d+)\.(\d+)'
     family_replacement: 'Baidu Explorer'
+  - regex: '(flyflow)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Baidu Explorer'
+  - regex: '(baiduboxapp)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Baidu Explorer'
 
   # MxBrowser is Maxthon. Must go before Mobile Chrome for Android
   - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)'
@@ -592,7 +596,7 @@ user_agent_parsers:
   - regex: '(115Browser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: '115 Browser'
 
- # Avira
+  # Avira
   - regex: '(Avira)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Avira'
 
