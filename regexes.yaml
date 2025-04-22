@@ -497,6 +497,10 @@ user_agent_parsers:
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
 
+  # Weibo Browser
+  - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Weibo Browser'
+
   # DuckDuckGo
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
