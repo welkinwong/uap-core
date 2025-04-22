@@ -496,6 +496,8 @@ user_agent_parsers:
     family_replacement: 'QQ Browser Mobile'
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
+  - regex: '(QQ)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'QQ Browser'
 
   # Weibo Browser
   - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
