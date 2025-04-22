@@ -509,6 +509,10 @@ user_agent_parsers:
   - regex: '(iThunder)'
     family_replacement: 'Thunder Browser'
 
+  # Alipay Browser
+  - regex: '(AlipayClient)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Alipay Browser'
+
   # DuckDuckGo
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
