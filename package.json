@@ -1,7 +1,7 @@
 {
   "name": "@welkinwong/uap-core",
   "description": "The regex file necessary to build language ports of Browserscope's user agent parser.",
-  "version": "0.19.4",
+  "version": "0.19.5",
   "maintainers": [
     {
       "name": "Tobie Langel",
