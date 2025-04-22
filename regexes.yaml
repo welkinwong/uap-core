@@ -225,6 +225,13 @@ user_agent_parsers:
     family_replacement: 'TikTok'
   - regex: '(BytedanceWebview)\/[a-z0-9]+'
     family_replacement: 'TikTok'
+  # Weibo
+  - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Weibo'
+  - regex: '(WeiboliteiOS)'
+    family_replacement: 'Weibo'
+  - regex: '(WeiboIntliOS)'
+    family_replacement: 'Weibo'
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
