@@ -226,7 +226,7 @@ user_agent_parsers:
   - regex: '(BytedanceWebview)\/[a-z0-9]+'
     family_replacement: 'TikTok'
   # Kwai
-  - regex: '(Kwai)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Kwai|ksNebula)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Kwai'
   # BiliBili
   - regex: '(BiliApp)\/'
