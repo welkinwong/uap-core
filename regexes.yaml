@@ -521,6 +521,10 @@ user_agent_parsers:
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
 
+  # HeyTap Browser
+  - regex: '(HeyTapBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'HeyTap Browser'
+
   # Thunder Browsers
   - regex: '(ThunderBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Thunder Browser'
