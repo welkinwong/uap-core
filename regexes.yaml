@@ -254,6 +254,9 @@ user_agent_parsers:
     family_replacement: 'Weibo'
   - regex: '(WeiboIntliOS)'
     family_replacement: 'Weibo'
+  # Alipay
+  - regex: '(AlipayClient)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Alipay'
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
@@ -523,10 +526,6 @@ user_agent_parsers:
     family_replacement: 'Thunder Browser'
   - regex: '(iThunder)'
     family_replacement: 'Thunder Browser'
-
-  # Alipay Browser
-  - regex: '(AlipayClient)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'Alipay Browser'
   
   # DingTalk
   - regex: '(DingTalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
