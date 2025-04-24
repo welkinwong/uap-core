@@ -225,6 +225,13 @@ user_agent_parsers:
     family_replacement: 'TikTok'
   - regex: '(BytedanceWebview)\/[a-z0-9]+'
     family_replacement: 'TikTok'
+  # WeChat
+  - regex: '(MacWechat)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat'
+  - regex: '(WindowsWechat)'
+    family_replacement: 'WeChat'
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat'
   # Kwai
   - regex: '(Kwai|ksNebula)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Kwai'
@@ -499,14 +506,6 @@ user_agent_parsers:
   # Google Search App on Android, eg:
   - regex: 'Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
-
-  # WeChat Browser
-  - regex: '(MacWechat)/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'WeChat Browser'
-  - regex: '(WindowsWechat)'
-    family_replacement: 'WeChat Browser'
-  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'WeChat Browser Mobile'
 
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
