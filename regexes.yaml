@@ -237,6 +237,13 @@ user_agent_parsers:
   # NewsArticle
   - regex: '(NewsArticle)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'NewsArticle'
+  # Weibo
+  - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Weibo'
+  - regex: '(WeiboliteiOS)'
+    family_replacement: 'Weibo'
+  - regex: '(WeiboIntliOS)'
+    family_replacement: 'Weibo'
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
@@ -510,10 +517,6 @@ user_agent_parsers:
     family_replacement: 'QQ Browser'
   - regex: '(QQ)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'QQ Browser'
-
-  # Weibo Browser
-  - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'Weibo Browser'
 
   # Thunder Browsers
   - regex: '(ThunderBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
