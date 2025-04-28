@@ -542,6 +542,10 @@ user_agent_parsers:
   - regex: '(OppoBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Oppo Browser'
 
+  # WPS
+  - regex: '(WpsiOS|WpsMoffice)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WPS'
+
   # DuckDuckGo
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
