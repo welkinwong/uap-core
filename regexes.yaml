@@ -257,6 +257,9 @@ user_agent_parsers:
   # Alipay
   - regex: '(AlipayClient)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Alipay'
+  # Tieba
+  - regex: '(tieba)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Tieba'
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
