@@ -255,7 +255,7 @@ user_agent_parsers:
   - regex: '(WeiboIntliOS)'
     family_replacement: 'Weibo'
   # Alipay
-  - regex: '(AlipayClient)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(AlipayClient)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Alipay'
   # Tieba
   - regex: '(tieba)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
