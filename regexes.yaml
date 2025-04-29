@@ -546,6 +546,10 @@ user_agent_parsers:
   - regex: '(WpsiOS|WpsMoffice)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WPS'
 
+  # Evernote
+  - regex: '(Evernote)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Evernote'
+
   # DuckDuckGo
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
