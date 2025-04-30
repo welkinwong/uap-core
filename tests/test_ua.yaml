@@ -8019,6 +8019,13 @@ test_cases:
     patch: '30'
     patch_minor: '3824'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Merchantshop/6.3.30.1218 PGID/0447B97E-93D4-4489-B529-881C01F0C0F5 Yoda/2.10.4.5.stable6 StatusHT/54 NetType/WIFI TitleHT/44 WebViewType/WK'
+    family: 'Kwai'
+    major: '6'
+    minor: '3'
+    patch: '30'
+    patch_minor: '1218'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.10(0x13080a10) XWEB/1227 Flue'
     family: 'WeChat'
     major: '3'
