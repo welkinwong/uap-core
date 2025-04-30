@@ -533,9 +533,9 @@ user_agent_parsers:
     family_replacement: 'Thunder Browser'
   - regex: '(iThunder)'
     family_replacement: 'Thunder Browser'
-  
+
   # DingTalk
-  - regex: '(DingTalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(DingTalk)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'DingTalk'
 
   # Oppo Browser
